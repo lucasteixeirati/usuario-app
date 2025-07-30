@@ -43,11 +43,8 @@ Este projeto tem como objetivo demonstrar uma aplicação CRUD (Create, Read, Up
 
 ### Passos para rodar
 
-1. Clone o repositório
-
-```bash
-git clone https://github.com/seu-usuario/usuario-app.git
-cd usuario-app
+1 
+git clone https://github.com/lucasteixeirati/usuario-app.git
 
 2
 mvn clean spring-boot:run
