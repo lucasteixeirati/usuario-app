@@ -1,0 +1,87 @@
+# usuario-app
+
+Projeto CRUD simples de gerenciamento de usuários utilizando:
+
+- Spring Boot 3.5.4
+- Java 21
+- SQLite (via JDBC)
+- Thymeleaf (frontend web)
+- Spring Data JPA
+- Validação de dados
+- Testes automatizados com JUnit 5 e Mockito
+- Lombok para reduzir boilerplate
+
+---
+
+## Descrição
+
+Este projeto tem como objetivo demonstrar uma aplicação CRUD (Create, Read, Update, Delete) básica de usuários com backend em Spring Boot e frontend em Thymeleaf. Utiliza banco de dados SQLite para persistência leve e configurações simplificadas. Inclui testes unitários e de integração para garantir qualidade.
+
+---
+
+## Tecnologias
+
+- Java 21
+- Spring Boot 3.5.4
+- Spring Data JPA
+- SQLite JDBC Driver
+- Thymeleaf
+- Lombok
+- JUnit 5 (JUnit Jupiter)
+- Mockito
+- Maven
+
+---
+
+## Como executar
+
+### Pré-requisitos
+
+- JDK 21 instalado
+- Maven instalado
+- IDE (IntelliJ IDEA recomendado) com plugin Lombok
+
+### Passos para rodar
+
+1. Clone o repositório
+
+```bash
+git clone https://github.com/seu-usuario/usuario-app.git
+cd usuario-app
+
+2
+mvn clean spring-boot:run
+
+3
+http://localhost:8080/usuarios
+
+4
+mvn test
+
+
+Observações
+Lombok está configurado para facilitar criação de getters, setters e construtores.
+
+Banco SQLite é usado via driver JDBC e configurado no application.properties.
+
+Para edição e novas funcionalidades, recomenda-se ter o plugin Lombok ativo na IDE.
+
+
+Estrutura do projeto
+bash
+Copiar
+Editar
+src/main/java
+ └─ br.com.usuarioapp.usuario_app
+     ├─ controller        # Controllers REST e Web
+     ├─ model             # Entidade Usuario
+     ├─ repository        # Interface JPA Repository
+     ├─ service           # Serviços de negócio
+src/main/resources
+ ├─ templates            # Thymeleaf HTML
+ └─ application.properties  # Configurações
+src/test/java             # Testes automatizados
+
+Autor
+Lucas Teixeira
+
