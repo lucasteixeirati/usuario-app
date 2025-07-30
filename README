@@ -65,9 +65,7 @@ Para edição e novas funcionalidades, recomenda-se ter o plugin Lombok ativo na
 
 
 Estrutura do projeto
-bash
-Copiar
-Editar
+
 src/main/java
  └─ br.com.usuarioapp.usuario_app
      ├─ controller        # Controllers REST e Web
@@ -78,6 +76,7 @@ src/main/resources
  ├─ templates            # Thymeleaf HTML
  └─ application.properties  # Configurações
 src/test/java             # Testes automatizados
+
 
 Autor
 Lucas Teixeira
